@@ -14,7 +14,7 @@ class Song
     @song = song
     @@all << song
     save
-    song
+    @song
   end
 
 end
